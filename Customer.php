@@ -12,4 +12,11 @@ class Customer
         $this->age  = $age;
     }
 
+    public function checkAge(){
+        if ($this->age >= 18){
+            return true;
+        } else{
+            return false;
+        }
+    }
 }
